@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="desafio02-ciclo01.css">
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Desafio 02 - Ciclo 01</title>
+</head>
+<body>
+    
+    <header>
+
+        <div class="flex retangulo">
+            <div>
+                <h1 class="flex titulo">ME ACHA!</h1>
+                <h2 class="flex subtitulo">ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP</h2>
+            </div>
+        </div>
+        
+    </header>
+
+        <main class="flex bola material-icons">
+            <DIV>
+                <span class="flex material-icons">travel_explore</span>
+            </DIV>
+        </main>
+
+    <footer class="flex">
+        <form class="formulario" name="" method="post">
+            <label for="">Cep</label>
+            <input class="txt cxCep" type="text" required name="cep">
+            <label for="">Rua</label>
+            <input class="txt" type="text" id="logradouro" name="rua" readonly>
+            <label for="">Bairro</label>
+            <input class="txt" type="text" id="bairro" name="bairro" readonly>
+            <label for="">Cidade</label>
+            <input class="txt" type="text" id="localidade" name="cidade" readonly>
+            <label for="">Estado</label>
+            <input class="txt" type="text" id="uf" name="estado" readonly>
+            <input id="btnBuscaCep" class="buscar display-btn" type="button" name="buscar" value="BUSCAR">
+        </form>
+    </footer>
+
+</body>
+</html>
